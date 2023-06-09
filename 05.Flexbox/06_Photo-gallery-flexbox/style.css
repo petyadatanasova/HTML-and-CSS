@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    
+}
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3em;
+}
+.gallery ul li{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border: 10px solid black;
+}

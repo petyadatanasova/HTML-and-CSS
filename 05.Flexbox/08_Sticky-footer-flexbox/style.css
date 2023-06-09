@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: inherit;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    flex-direction: column;
+    padding: 1em 2em 1em 2em;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5em;
+
+}
+
+h2 {
+    font-weight: normal;
+    padding-bottom: 0.5em;
+    padding-top: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main p {
+    padding: 0.5em 0 0.5em 0;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    margin-top: auto;
+    padding: 0.5em;
+}

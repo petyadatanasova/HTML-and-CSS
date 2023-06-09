@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    padding: 2em;
+    padding-left: 7em;
+
+    text-align: justify;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-weight: 500;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+main {
+    width: 60%;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 5em;
+    font-size: 16px;
+    line-height: 1.2;
+
+
+}
+
+aside ul a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+
+}
+
+.art2 {
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.art2 #item {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    padding-right: 2em;
+    margin: 0;
+    
+}
+
+blockquote {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Georgia, serif;
+    align-items: flex-end;
+    flex-direction: column;
+    border-left: 3px solid #999;
+    width: 50%;
+    padding-left: 2em;
+    font-style: italic;
+    font-weight: 100;
+   
+}
+
+
+img{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 0.7em;
+    border: 3px solid black;
+    width: 160px;
+    
+}
+
+img#firstImage{
+    float: right;
+    margin: 0 0 2em 2em; 
+}
+img#secondImage{
+    float: left; 
+    margin: 0 2em 2em 0;
+}
+
