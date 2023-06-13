@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2
+}
+a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    
+}
+.page>header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+}
+.page>header ul{
+    display: flex;
+    gap: 1em;
+}  
+.page>header ul li{
+    display: flex;
+} 
+
+.page>header h1{
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+blockquote{
+    font-family: Georgia, serif;
+
+}
+main{
+    padding: 2em 0;
+    width: 80%;
+}
+main article section{
+    padding: 1em 0;
+    
+}
+main article section p{
+    padding: 0.5em 0;
+}
+.onSide{
+    display: flex;
+}
+aside{
+    padding: 2em 0 0 3em;
+}
+#firstImage{
+float: right;
+border: 0.8em solid rgb(255, 255, 255);
+margin: 0 0 1em 1em;
+box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.25);
+}
+#secondImage{
+    float:left;
+    border: 0.8em solid rgb(255, 255, 255);
+margin: 0 1em 1em 0;
+box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.25);
+}
+

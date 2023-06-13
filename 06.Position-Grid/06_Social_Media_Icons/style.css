@@ -1,0 +1,59 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap:2em;
+
+}
+li {
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;  
+    
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 50%;
+}
+svg {
+    width: 20px;
+    height: auto;
+}
+#facebook:hover{
+   
+    fill: blue;
+}
+#tweeter:hover{
+   
+    fill: rgb(71, 222, 248);
+}
+#google:hover{
+   
+    fill: orange;
+}
+#linkedin:hover{
+   
+    fill: rgb(46, 46, 110);
+}
+#instagram:hover{
+   
+    fill: purple;
+}

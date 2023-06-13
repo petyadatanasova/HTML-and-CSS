@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    
+}
+h1{
+    position: absolute;
+    top:60px;
+    left:180px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+}
