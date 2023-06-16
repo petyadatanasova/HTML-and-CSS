@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fitness Calculator</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="media">
+            <div class="image">
+                <img src="image/calculator.png">
+            </div>
+
+        </div>
+
+        <div class="input">
+            <h1>FITNESS CALCULATOR</h1>
+
+            <div class="buttons">
+                <button class="standart">Standart units (US)</button>
+                <button class="metric">Metric units</button>
+            </div>
+
+            <div class='genderContainer'>
+                <div class="gender">
+                    <p>Gender</p>
+                    <select id="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="age">
+                    <p>Age</p>
+                    <span>
+                        <input id="years" placeholder="Years..." />
+                    </span>
+                </div>
+            </div>
+            <div class="weightContainer">
+                <div class="weight">
+                    <p>Weight</p>
+                    </span>
+                    <input id="weight" placeholder="Pounds..." />
+                    </span>
+                </div>
+            </div>
+            <div class="heightContainer">
+                <div class="height">
+                    <p>Height</p>
+                    <div>
+                        <input id="feet" placeholder="Feet..." />
+                        <input id="inches" placeholder="Inches..." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="calcBtn">
+                <button>Calculate</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
