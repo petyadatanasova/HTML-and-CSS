@@ -1,0 +1,36 @@
+.site-header-div{
+    background-color: #d11918;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+    color: white
+}
+.site-header-div ul{
+    display: flex;
+    text-decoration: none;
+    gap:0.7em;
+   
+}
+.site-header-div ul li{
+    display: flex;
+    text-decoration: none;
+}
+.site-header-div ul li i{
+    color: white;
+}
+.navigation ul {
+    display: flex;
+    gap: 5em;
+    justify-content: end;
+    padding: 2em 3em;
+}
+
+.navigation ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
